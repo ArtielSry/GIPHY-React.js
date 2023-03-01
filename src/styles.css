@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+.title {
+    width: 100%;
+
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 4em;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+    color: transparent;
+    margin: 50px;
+}
+
+.search{
+    width: 100%;
+    padding: 2% 25%;
+
+}
+.search input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+}
+.search button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.card-grid {
+    width: 100%;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 0%;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.container__cards h3{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
