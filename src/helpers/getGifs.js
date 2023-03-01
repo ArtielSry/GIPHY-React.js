@@ -13,3 +13,4 @@ export const getGifs = async(categories) => {
     console.log(gifs);
     return gifs;
 }
+ 
